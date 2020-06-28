@@ -112,9 +112,18 @@ class Recipe extends React.Component {
               </button>
             </div>
           </div>
+          <br />
+          <div className="col-sm-8 col-lg-4">
+          <Link
+          to={`/recipe/${recipe.id}/ingredients`}
+          className="btn custom-button"
+          role="button">
+            Add ingredients to cart
+          </Link>
           <Link to="/recipes" className="btn btn-link">
             Back to recipes
           </Link>
+          </div>
         </div>
       </div>
       );
