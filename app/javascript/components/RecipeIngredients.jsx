@@ -56,7 +56,7 @@ class RecipeIngredients extends React.Component {
                   <h5 className="mb-2">Ingredients</h5>
                   {ingredientList}
                 </ul>
-                <p className="font-weight-bold text-right">Total: $18.50</p>
+                <h5 className="font-weight-bold text-right">Total: $18.50</h5>
               </div>
           </div>
         </div>
