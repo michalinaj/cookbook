@@ -34,3 +34,10 @@
   width: 100%;
   opacity: 0.4;
 }
+.container {
+  max-width: 100%;
+}
+
+.list-group {
+  display: inline-block;
+}

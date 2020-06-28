@@ -49,11 +49,11 @@ class RecipeIngredients extends React.Component {
             <h3 className="display-7">{recipe.name} - Checkout</h3>
           </div>
         </section>
-        <div className="container py-5">      
-          <div className="row">
-              <div className="col-sm-12 col-lg-3">
+        <div className="container py-1">      
+          <div className="col">
+              <div>
                 <ul className="list-group">
-                  <h5 className="mb-2">Ingredients</h5>
+                  <h5>Ingredients</h5>
                   {ingredientList}
                 </ul>
                 <h5 className="font-weight-bold text-right">Total: $18.50</h5>
@@ -65,5 +65,4 @@ class RecipeIngredients extends React.Component {
   
   }
 }
-
 export default RecipeIngredients;
